@@ -14,8 +14,7 @@ with open("AoC puz 2 input.txt", "r") as f:
 #find key letter in string
 def findKeyLetter(string):
     colonIndex = string.find(":")
-    KeyLetIndex = colonIndex-1
-    return KeyLetIndex
+    return colonIndex-1
 
 """
 #find dash in string

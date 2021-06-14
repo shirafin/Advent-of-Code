@@ -1,8 +1,13 @@
+with open("AoC puz 1 input.txt", "r") as f:
+    expenses = [int(line.strip()) for line in f] #create list with all numbers
+"""
+long method:
 a_file = open("AoC puz 1 numbers.txt", "r")
 expenses = []
 for line in a_file:
     stripped_line = int(line.strip())
     expenses.append(stripped_line)
+"""
 
 iExpense = 0
 for expense in expenses:

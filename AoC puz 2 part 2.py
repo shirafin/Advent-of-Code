@@ -27,14 +27,6 @@ def findNumRange(string):
     HighNum = int(string[dashIndex+1:keyLetterIndex-1])
 """
 
-#count instances of letter in password
-def CountLetter(word):
-    instances = 0
-    for c in word:
-        if c == KeyLetter:
-            instances += 1
-    return instances
-
 correctPasswords = 0
 for password in passwords:
     KeyLetterIndex = findKeyLetter(password)

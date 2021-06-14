@@ -1,7 +1,7 @@
 with open("AoC puz 3 input.txt", "r") as f:
     TSet = [line.strip() for line in f]
 THit = 0 #trees hit
-TIndex = 0 #index of tree
+TIndex = 0 #index of toboggan
 LineLen = len(TSet[0])
 
 for treeline in TSet:

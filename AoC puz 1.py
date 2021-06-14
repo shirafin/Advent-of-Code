@@ -1,9 +1,5 @@
-a_file = open("AoC puz 1 input.txt", "r")
-#create list with all numbers
-expenses = []
-for line in a_file:
-    stripped_line = int(line.strip()) #strip formatting
-    expenses.append(stripped_line)
+with open("AoC puz 1 input.txt", "r") as f:
+    expenses = [int(line.strip()) for line in f] #create list with all numbers
 
 iExpense = 0
 for expense in expenses:

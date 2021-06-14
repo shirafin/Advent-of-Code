@@ -10,7 +10,6 @@
 
 👤 **Shira Finson**
 
-* Website: il.linkedin.com/in/shirafinson
 * Github: [@shirafin](https://github.com/shirafin)
 * LinkedIn: [@shirafinson](https://linkedin.com/in/shirafinson)
 
